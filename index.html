@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,31 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="./script.js"></script>
 </head>
+
 <body>
     <main>
-
+        <section class="header">
+            <figure class="container">
+                <h1>Is it a Palindrome?</h1>
+            </figure>
+        </section>
+        <section class="user_input">
+            <figure class="container">
+                <label for="text-input" aria-labelledby="text-input"><input type="text" id="text-input"></label>
+                <button id="check-btn">check</button>
+                <div id="result"></div>
+            </figure>
+        </section>
+        <section class="info">
+            <figure class="container">
+                <article>
+                    <p>A palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam
+                        or nurses run.</p>
+                </article>
+            </figure>
+        </section>
     </main>
-    
+
 </body>
+
 </html>
