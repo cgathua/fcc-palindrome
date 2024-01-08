@@ -34,6 +34,7 @@ section {
 
 h1 {
     text-align: center;
+    font-size: clamp(1.5rem, 2.5vw, 2.25rem);
 }
 
 .container {
@@ -47,6 +48,8 @@ input {
     width: 50%;
     margin: 10px 0 0 0;
     min-height: 2em;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 input:focus {
@@ -79,4 +82,19 @@ article {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 1rem;
+}
+
+#result {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
 }
