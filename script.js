@@ -11,10 +11,9 @@ checkBtn.addEventListener('click', () => {
     const validatePalindrome = sanitizeInput.split("").reverse().join("");
 
     if (sanitizeInput !== validatePalindrome) {
-        resultDisplay.textContent = `${sanitizeInput} is not a palindrome`;
+        resultDisplay.textContent = `${textInput.value} is not a palindrome`;
     } else {
-        resultDisplay.textContent = `${sanitizeInput} is a palindrome`;
-
-    }
+        resultDisplay.textContent = `${textInput.value} is a palindrome`;
+    };
 })
 
